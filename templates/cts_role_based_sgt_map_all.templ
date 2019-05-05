@@ -1,0 +1,9 @@
+Value ip_address (\S+)
+Value sgt (\d+)
+
+
+
+
+Start
+  ^${ip_address}\s+${sgt}\s+\w+ -> Record
+

@@ -1,0 +1,12 @@
+Value srcsgt (\w+)
+Value dstsgt (\w+)
+Value sgacl (\w+)
+
+
+
+Start
+  ^IPv4 Role-based permissions default:
+  ^\s+Permit IP-00
+  ^IPv4 Role-based permissions from group \d+:${srcsgt} to group \d+:${dstsgt}
+  ^\s+${sgacl} -> Record 
+

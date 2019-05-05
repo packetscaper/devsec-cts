@@ -1,0 +1,13 @@
+Value srcsgt (\d+)
+Value dstsgt (\d+)
+Value sw_denied (\d+)
+Value hw_denied (\d+)
+Value sw_permit (\d+)
+Value hw_permit (\d+)
+
+
+
+
+Start
+  ^${srcsgt}\s+${dstsgt}\s+${sw_denied}\s+${hw_denied}\s+${sw_permit}\s+${hw_permit}\s+\d+\s+\d -> Record
+

@@ -1,0 +1,8 @@
+Value IP (\S+)
+Value MAC (\S+) 
+
+Start
+  ^ARP\s+${IP}\s+${MAC}\s.+ -> Record
+  ^DH4\s+${IP}\s+${MAC}\s.+ -> Record
+
+  
