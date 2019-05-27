@@ -26,5 +26,5 @@ def print_permissions():
 
 if __name__ == "__main__":
  print_endpoints()
- #print_permissions()
+ print_permissions()
 
